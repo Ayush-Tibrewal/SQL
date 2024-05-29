@@ -17,3 +17,12 @@ For example:
 - `%word%` matches any string that contains "word" anywhere within it.
 
 This makes `%` a powerful tool for searching and filtering strings based on patterns rather than exact matches.
+
+# Write your MySQL query statement below
+Select patient_id , patient_name , conditions 
+from Patients 
+where conditions like '%DIAB1%'
+OR 
+ conditions like 'DIAB1%'
+OR 
+conditions like '%DIAB1'
