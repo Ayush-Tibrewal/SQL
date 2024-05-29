@@ -18,7 +18,7 @@ For example:
 
 This makes `%` a powerful tool for searching and filtering strings based on patterns rather than exact matches.
 
-```# Write your MySQL query statement below
+# Write your MySQL query statement below
 Select patient_id , patient_name , conditions 
 from Patients 
 where conditions like '%DIAB1%'
@@ -26,3 +26,9 @@ OR
  conditions like 'DIAB1%'
 OR 
 conditions like '%DIAB1'
+
+
+![image](https://github.com/Ayush-Tibrewal/SQL/assets/96817905/74d2fecf-35f3-4595-9f53-64f1a0692ed5)
+
+
+<>	Not equal to operaotor 
