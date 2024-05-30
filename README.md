@@ -32,3 +32,5 @@ conditions like '%DIAB1'
 
 
 <>	Not equal to operaotor 
+##REGREX
+https://www.geeksforgeeks.org/mysql-regular-expressions-regexp/
