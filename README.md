@@ -33,5 +33,9 @@ conditions like '%DIAB1'
 
 <>	Not equal to operaotor 
 
+
+PRECEDING AND BETWEEN TERM -https://www.youtube.com/watch?v=xLAmRI_Iky8
+
+
  # REGREX
 https://www.geeksforgeeks.org/mysql-regular-expressions-regexp/
