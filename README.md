@@ -40,6 +40,11 @@ PRECEDING AND BETWEEN TERM -https://www.youtube.com/watch?v=xLAmRI_Iky8
  # REGREX
 https://www.geeksforgeeks.org/mysql-regular-expressions-regexp/
 
+#DATE_FORMAT
+
+https://www.geeksforgeeks.org/date_format-function-in-mysql/
+```
+
 
 
  UNION only returns a unique record, while UNION ALL returns all the records (including duplicates)
