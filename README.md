@@ -54,4 +54,4 @@ SELECT IF(500<1000, 5, 10);
 
 
 
- UNION only returns a unique record, while UNION ALL returns all the records (including duplicates)
+ UNION only returns a unique record, while UNION ALL returns all the records (including duplicates) , MIN() function returns the minimum number 
