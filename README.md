@@ -43,7 +43,13 @@ https://www.geeksforgeeks.org/mysql-regular-expressions-regexp/
 #DATE_FORMAT
 
 https://www.geeksforgeeks.org/date_format-function-in-mysql/
+# if condition in sql 
 ```
+Return 5 if the condition is TRUE, or 10 if the condition is FALSE:
+IF(condition, value_if_true, value_if_false)
+SELECT IF(500<1000, 5, 10);
+```
+
 
 
 
