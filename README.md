@@ -62,6 +62,15 @@ Return the remainder of 18/4:
 
 SELECT MOD(18, 4);
 ```
+```
+SELECT OrderID, Quantity,
+CASE
+    WHEN Quantity > 30 THEN 'The quantity is greater than 30'
+    WHEN Quantity = 30 THEN 'The quantity is 30'
+    ELSE 'The quantity is under 30'
+END AS QuantityText
+FROM OrderDetails;
+```
 
 
  UNION only returns a unique record, while UNION ALL returns all the records (including duplicates) , MIN() function returns the minimum number  ,MOD(ID , 1) IS ALSO THE FUNCTION  WORK AS MODULUS
