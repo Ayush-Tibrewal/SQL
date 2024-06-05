@@ -40,9 +40,10 @@ PRECEDING AND BETWEEN TERM -https://www.youtube.com/watch?v=xLAmRI_Iky8
  # REGREX
 https://www.geeksforgeeks.org/mysql-regular-expressions-regexp/
 
-#DATE_FORMAT
 
+#DATE_FORMAT
 https://www.geeksforgeeks.org/date_format-function-in-mysql/
+// used in eum
 # if condition in sql 
 ```
 Return 5 if the condition is TRUE, or 10 if the condition is FALSE:
