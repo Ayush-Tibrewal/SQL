@@ -50,6 +50,12 @@ Return 5 if the condition is TRUE, or 10 if the condition is FALSE:
 IF(condition, value_if_true, value_if_false)
 SELECT IF(500<1000, 5, 10);
 ```
+```
+Subtract 10 days from a date and return the date:
+
+SELECT DATE_SUB("2017-06-15", INTERVAL 10 DAY);
+// where caluse k satth use karlo toh ye jo bhi date ek se kaam hai ya kisi se bhi kaam leni ho uske liye use kr sakte hai 
+```
 
 
 
