@@ -57,7 +57,11 @@ SELECT DATE_SUB("2017-06-15", INTERVAL 10 DAY);
 // where caluse k satth use karlo toh ye jo bhi date ek se kaam hai ya kisi se bhi kaam leni ho uske liye use kr sakte hai 
 ```
 
+```
+Return the remainder of 18/4:
+
+SELECT MOD(18, 4);
+```
 
 
-
- UNION only returns a unique record, while UNION ALL returns all the records (including duplicates) , MIN() function returns the minimum number 
+ UNION only returns a unique record, while UNION ALL returns all the records (including duplicates) , MIN() function returns the minimum number  ,MOD(ID , 1) IS ALSO THE FUNCTION  WORK AS MODULUS
