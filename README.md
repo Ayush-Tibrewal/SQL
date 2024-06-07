@@ -109,6 +109,7 @@ FROM table_name;
 SELECT EXTRACT(YEAR FROM '2020-07-15 08:06:44') AS Yr;  
 toh year dedega 
 ```
-
+length of the words 
+where LENGTH(content)>15;
 
 
