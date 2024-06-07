@@ -111,5 +111,20 @@ toh year dedega
 ```
 length of the words 
 where LENGTH(content)>15;
+## group concatnate 
+```
+GROUP_CONCAT(expression [ORDER BY expression] [SEPARATOR separator])
+Leadership, Punctuality, Quick-learner, Responsible jab aise kaane ho
+GROUP_CONCAT ( DISTINCT strength)
+```
+## substring , left , rigth 
+```
+SUBSTRING(field_name, starting position, ending position relative to the starting position)
+left (name of the coloum , kitne left side k rakhne hai )
+same with
+right()
+```
+
+A natural join is a type of join operation that creates an implicit join by combining tables based on columns with the same name and data type. It is similar to the INNER or LEFT JOIN, but we cannot use the ON or USING clause with natural join as we used in them.
 
 
