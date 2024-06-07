@@ -104,6 +104,11 @@ ISNULL(department_id, 0)
 FROM table_name;
 //This query returns the first non-null value among column1, column2, and column3. If all are null, it returns 'default_value'
 ```
+## extract fuction in sql 
+```
+SELECT EXTRACT(YEAR FROM '2020-07-15 08:06:44') AS Yr;  
+toh year dedega 
+```
 
 
 
