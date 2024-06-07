@@ -73,4 +73,33 @@ FROM OrderDetails;
 ```
 
 
- UNION only returns a unique record, while UNION ALL returns all the records (including duplicates) , MIN() function returns the minimum number  ,MOD(ID , 1) IS ALSO THE FUNCTION  WORK AS MODULUS
+ UNION only returns a unique record, while UNION ALL returns all the records (including duplicates) , MIN() function returns the minimum number  ,MOD(ID , 1) IS ALSO THE FUNCTION  WORK AS MODULUS 
+ ## using keyboard 
+ it is using instead of ON
+```
+ SELECT *
+FROM users
+JOIN orders USING (user_id)
+WHERE user_id = 1;
+```
+## between operator 
+```
+Selects all products with a price between 10 and 20:
+SELECT * FROM Products
+WHERE Price BETWEEN 10 AND 20;
+```
+## is null vs COALESCE()
+Function: ISNULL is used to replace NULL with a specified replacement value.
+Syntax: ISNULL(expression, replacement_value)
+
+Function: COALESCE returns the first non-null expression among its arguments.
+Syntax: COALESCE(expression1, expression2, ..., expressionN)
+
+```
+ISNULL(department_id, 0)
+// jo bhi null hoga department mein uski jagha 0 ajayega
+SELECT COALESCE(column1, column2, column3, 'default_value') AS result
+FROM table_name;
+This query returns the first non-null value among column1, column2, and column3. If all are null, it returns 'default_value'
+
+
