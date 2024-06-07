@@ -98,8 +98,12 @@ Syntax: COALESCE(expression1, expression2, ..., expressionN)
 ```
 ISNULL(department_id, 0)
 // jo bhi null hoga department mein uski jagha 0 ajayega
-SELECT COALESCE(column1, column2, column3, 'default_value') AS result
+
+
+ COALESCE(column1, column2, column3, 'default_value')
 FROM table_name;
-This query returns the first non-null value among column1, column2, and column3. If all are null, it returns 'default_value'
+//This query returns the first non-null value among column1, column2, and column3. If all are null, it returns 'default_value'
+```
+
 
 
