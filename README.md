@@ -163,6 +163,8 @@ left (name of the coloum , kitne left side k rakhne hai )
 same with
 right()
 ```
+![image](https://github.com/user-attachments/assets/2243664f-62d8-4c74-96bb-8f5c5f19ca6b)
+
 ## natural join 
 A natural join is a type of join operation that creates an implicit join by combining tables based on columns with the same name and data type. It is similar to the INNER or LEFT JOIN, but we cannot use the ON or USING clause with natural join as we used in them.
 
