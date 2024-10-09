@@ -104,7 +104,10 @@ CASE
     ELSE 'The quantity is under 30'
 END AS QuantityText
 FROM OrderDetails;
+
+
 ```
+![image](https://github.com/user-attachments/assets/12c5902e-6242-45a1-9e34-426d4caac8bc)
 
 
  UNION only returns a unique record, while UNION ALL returns all the records (including duplicates) , MIN() function returns the minimum number  ,MOD(ID , 1) IS ALSO THE FUNCTION  WORK AS MODULUS 
