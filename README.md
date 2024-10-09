@@ -154,6 +154,8 @@ GROUP_CONCAT(expression [ORDER BY expression] [SEPARATOR separator])
 Leadership, Punctuality, Quick-learner, Responsible jab aise kaane ho
 GROUP_CONCAT ( DISTINCT strength)
 ```
+![image](https://github.com/user-attachments/assets/7abf3bb4-2d60-4f91-8e0f-1bbe11b59151)
+
 ## substring , left , rigth 
 ```
 SUBSTRING(field_name, starting position, ending position relative to the starting position)
