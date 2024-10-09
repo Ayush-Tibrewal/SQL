@@ -18,7 +18,7 @@ For example:
 
 This makes `%` a powerful tool for searching and filtering strings based on patterns rather than exact matches.
 
-# Write your MySQL query statement below
+ Write your MySQL query statement below
 Select patient_id , patient_name , conditions 
 from Patients 
 where conditions like '%DIAB1%'
@@ -28,6 +28,40 @@ OR
 conditions like '%DIAB1'
 
 
+
+Example 1: Cumulative Sum using PRECEDING
+```
+Let's say you have a sales table, and you want to calculate the cumulative sum of sales for the current row and the previous two rows.
+
+sql
+Copy code
+SELECT 
+    order_id,
+    amount,
+    SUM(amount) OVER (
+        ORDER BY order_id
+        ROWS BETWEEN 2 PRECEDING AND CURRENT ROW
+    ) AS cumulative_sales
+FROM sales;
+```
+
+Example 3: Custom Range Using Both PRECEDING and FOLLOWING
+You can define a custom range that includes both rows before and after the current row. For example, calculating a moving total that includes the current row, the two preceding rows, and the next row.
+```
+sql
+Copy code
+SELECT 
+    order_id,
+    amount,
+    SUM(amount) OVER (
+        ORDER BY order_id
+        ROWS BETWEEN 2 PRECEDING AND 1 FOLLOWING
+    ) AS moving_total
+FROM sales;
+Explanation:
+ROWS BETWEEN 2 PRECEDING AND 1 FOLLOWING: The sum includes two rows before, the current row, and one row after.
+
+```
 ![image](https://github.com/Ayush-Tibrewal/SQL/assets/96817905/74d2fecf-35f3-4595-9f53-64f1a0692ed5)
 
 
